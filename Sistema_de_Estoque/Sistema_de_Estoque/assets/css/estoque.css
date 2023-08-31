@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+body{
+    background-color: #1B1F27;
+    color: aliceblue;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 10%;
+    font-family: 'Poppins', sans-serif;
+}
+
+li, a{
+    color: aliceblue;
+    text-decoration: none;
+    list-style: none;
+    display: inline-block;
+    margin: 0 15px;
+}
+
+.logo{
+    cursor: pointer;
+}
+
+.nav_links li a {
+    transition: all 0.3 ease 0s;
+}
+
+.nav_links li a:hover {
+    color: #0088a9;
+}
+
+.content {
+    color: black;
+    max-width: 800px;
+    margin: 10% auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+h2{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.add-product form {
+    margin-bottom: 20px;
+}
+
+.add-product label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.add-product input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.add-product input[type="submit"] {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.add-product input[type="submit"]:hover{
+        background-color: #0056b3;
+}
+
+.product-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.product-table th,
+.product-table td {
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #ccc;
+}
+
+.product-table th {
+    background-color: #f0f0f0;
+    font-weight: bold;
+}
+
+.product-table td a {
+    color: black; /* Defina a cor do texto para preto */
+    text-decoration: none;
+    margin-right: 10px; /* Espaçamento entre os links */
+}
