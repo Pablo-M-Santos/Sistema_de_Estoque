@@ -32,9 +32,9 @@ Para o desenvolvimento do Sistema estou utilizando as seguintes tecnologias:
 ## ⚙️ melhorias e atualizações
 O Sistema de estoque ainda está em desenvolvimento e as próximas atualizações serão feitas das seguintes maneiras:
 
-  -  [ ] Layout das paginas;
   -  [Ok] Um sistema de autenticação(Cadastro,Login,Estoque e Configurações;
+  -  [Ok] Adicionar proteção de dados(senha criptografada);
+  -  [Ok] Melhorar o layout dos produtos;
+  -  [ ] Layout das paginas;
   -  [ ] Troca de Usuário pra Admin; 
-  -  [ ] Melhorar o layout dos produtos;
-  -  [ ] Adicionar proteção de dados;
   -  [ ] Acessibilidade...
